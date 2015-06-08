@@ -75,7 +75,7 @@ $(function() {
             expect($('body').hasClass('menu-hidden')).toBe(false);
             $('.menu-icon-link').click();
             expect($('body').hasClass('menu-hidden')).toBe(true);
-        })
+        });
     });
 
     /* TODO: Write a new test suite named "Initial Entries" */
@@ -127,7 +127,5 @@ $(function() {
             expect(newContent).not.toEqual(startContent);
             done();
         });
-
     });
-
 }());
